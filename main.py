@@ -21,7 +21,7 @@ def age(result):
         q1 = int(q1)
     except:
         print("Age must be a number!")
-        age()
+        age(result)
     else:
         if q1 > 35:
             result += 1
